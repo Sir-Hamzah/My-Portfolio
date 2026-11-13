@@ -1,0 +1,61 @@
+.cardImg{
+    width: 450px;
+    object-fit: contain;
+}
+
+.projectContainer{
+perspective: 1000px;
+}
+.projectCard{
+    width: 450px;
+    height: 550px;
+    background-color: #0d1424;
+    border: 1px solid #202a3d;
+    border-radius: 8px;
+    margin-bottom: 100px;
+margin: 100px auto;
+transform-style: preserve-3d;
+}
+
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projectName{
+    font-size: 22px;
+    text-align: left;
+    color: white;
+}
+
+
+.projectLang{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectLang > li{
+    border-radius: 6px;
+    background-color: #2A2A32;
+    color: #b8b8c2;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 40px auto;
+    
+}
+
+.projectBtn{
+    width: 50%;
+    margin: auto;
+    padding: 10px 12px 10px;
+}
+
+.aboutProject{
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 5px;
+    font-size: 12px;
+}

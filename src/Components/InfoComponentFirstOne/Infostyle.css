@@ -1,0 +1,85 @@
+
+
+
+.visualContainer{
+    position: relative;
+}
+
+
+.heroImg{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+-webkit-mask-image: radial-gradient(
+    elipse at center,
+    black 50%,
+    rgba(0,0,0,0.85) 65%,
+    transparent 85%
+);
+
+mask-image: radial-gradient(
+    elipse at center,
+    black 50%,
+    rgba(0,0,0,0.85) 65%,
+    transparent 85%
+);
+}
+
+.myInfo{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+
+    z-index: 2;
+
+}
+
+.myInfo > h1{
+
+    font-weight: 800;
+    padding: 30px;
+    font-size: 77px;
+    color:#8B5CF6 ;
+}
+span{
+    color: aliceblue;
+}
+
+
+h3{
+    font-size: 67px;
+    padding: 30px;
+    font-weight: 800;
+    color: #7C3AED;
+}
+
+h4{
+    font-size: 67px;
+    padding: 30px;
+    font-weight: 800;
+    color: #7C2AAD;
+}
+
+.projects{
+    padding: 15px 44px 15px;
+    margin-right: 30px;
+transition: all 0.5s ease;
+    
+}
+
+.projects:hover{
+    background-color: #7C2AAD;
+    border: 1px solid transparent;
+}
+
+.contact{
+    padding: 15px 54px 15px;
+transition: all 0.5s ease;
+    
+}
+
+.contact:hover{
+    background-color: #7C2AAD;
+    border: 1px solid transparent;
+}

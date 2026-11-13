@@ -1,0 +1,135 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =================================
+# Dependencies - المكتبات
+# =================================
+node_modules/
+jspm_packages/
+bower_components/
+vendor/
+
+# =================================
+# Package Manager
+# =================================
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+
+# =================================
+# Environment Variables - الأسرار
+# =================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =================================
+# Build Files - ملفات البناء
+# =================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+coverage/
+
+# =================================
+# Vite & Bundlers Cache
+# =================================
+.vite/
+.parcel-cache/
+.turbo/
+.cache/
+
+# =================================
+# Logs
+# =================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =================================
+# OS Files - ملفات النظام
+# =================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =================================
+# Editors & IDEs
+# =================================
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# =================================
+# Testing
+# =================================
+.nyc_output/
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# =================================
+# Temporary Files
+# =================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+*.orig
+
+# =================================
+# Deployment
+# =================================
+.vercel/
+.netlify/
+
+# =================================
+# Miscellaneous
+# =================================
+*.pid
+*.seed
+*.tgz
+*.tsbuildinfo
